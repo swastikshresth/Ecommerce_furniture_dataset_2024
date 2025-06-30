@@ -93,6 +93,118 @@
                sold=trim(sold),
                Tag_Text=trim(Tag_Text);
 
+    
+Based on Power BI dashboard for **E-Commerce Furniture Dataset 2024**, here are detailed **insights** and **recommendations** based on each visual and KPI shown:
+
+---
+
+### 🔍 **Key Insights**
+
+#### 🧮 Summary Metrics (Top Cards)
+
+* **Total Revenue:** 1.90M
+* **Total Sold Items:** 43K
+* **Average Discount:** 12.26%
+* **Total No. of Products:** 1783
+
+This indicates a **moderately discounted** product line and a **large product catalog**, but actual sales may be concentrated among fewer items.
+
+---
+
+#### 📊 Sold Items by Top 5 Product Titles
+
+* **Portable Round Folding Table** is the top-selling product with **10K units**, significantly ahead of others.
+* The second-best (MUMUCC Multifunctional Table) sold only **6K units**, and others are below **2K**.
+
+➡️ **Insight**: There is a **heavy skew**—only 1-2 products are driving a significant portion of sales.
+
+---
+
+#### 💰 Highest Revenue by Product Title
+
+* **MUMUCC Multifunction Table** leads with **0.14M revenue**, followed by Portable Round Folding Table (**0.12M**).
+* Others contribute less than **0.05M**, showing a **long tail distribution**.
+
+➡️ **Insight**: Revenue concentration is high in a few products. Most products contribute **very little** individually.
+
+---
+
+#### 📉 Top 5 Products with Highest Average Discount
+
+* Products like **folding chairs and wardrobes** have **discounts over 90%**.
+
+➡️ **Insight**: Deep discounts are used to drive interest, possibly for **overstock** or **slow-moving items**.
+
+---
+
+#### 💸 Top 5 Most Expensive Products (By Price)
+
+* The most expensive product is **Luxury Modern Furniture** at **2.88K**, with others ranging between **1.3K–2.0K**.
+
+➡️ **Insight**: High-priced items exist but are likely **not selling in volume** as they're absent from top revenue/sales charts.
+
+---
+
+#### 📉 Product Count vs Sold Units by Revenue Segment
+
+* **Low Revenue Segment:**
+
+  * Has **1,778 products**, but only **\~1.8K units sold**.
+* **Medium Revenue Segment:**
+
+  * Just **26 products**, **\~7K units sold**.
+* **High Revenue Segment:**
+
+  * Only **10 products**, but **\~10K units sold**.
+
+➡️ **Insight**: **Low revenue products** dominate in count but contribute little to sales.
+➡️ **Medium and High revenue products**, though fewer, have **much higher performance** per item.
+
+---
+
+### ✅ Recommendations
+
+#### 1. **Reduce or Remove Underperforming SKUs**
+
+* Over **1,700 products** are in the low-revenue group but contribute almost **nothing to sales**.
+* Consider **phasing out** or bundling these products to **reduce catalog clutter**.
+
+#### 2. **Optimize Discounts**
+
+* Products with **90%+ discount** may hurt profitability.
+* Analyze if these discounts are **converting to sales** or just **eroding margins**.
+
+#### 3. **Scale High-Performing Products**
+
+* Focus marketing and supply chain on the **top 5 products**—they clearly drive **volume and revenue**.
+* Could even offer **bundle deals** to increase AOV (Average Order Value).
+
+#### 4. **Revise Pricing Strategy for Expensive Items**
+
+* Most expensive products are **not top revenue generators**.
+* Consider:
+
+  * **Repricing**
+  * Offering **EMI or financing**
+  * Creating **video-rich listings** to justify the premium
+
+#### 5. **Segment-Based Targeting**
+
+* Low revenue segments: try to identify **why they fail** (bad images, low visibility, wrong price point?).
+* High revenue segments: focus ads and inventory on these SKUs.
+
+---
+
+### 🛠️ Additional Suggestions for Dashboard Enhancement
+
+* Add a **Profitability by Product** visual.
+* Use **scatter plot**: Price vs Sold Units to identify outliers.
+* Include a **Time-based trend (Monthly/Weekly)** chart to view revenue/sales over time.
+* Filter by **Category/Subcategory** if available.
+
+---
+
+Would you like me to export these insights and recommendations as a **PDF report or PPT**?
 
 
 
