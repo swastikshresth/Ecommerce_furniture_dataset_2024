@@ -193,18 +193,6 @@ This indicates a **moderately discounted** product line and a **large product ca
 * Low revenue segments: try to identify **why they fail** (bad images, low visibility, wrong price point?).
 * High revenue segments: focus ads and inventory on these SKUs.
 
----
-
-### 🛠️ Additional Suggestions for Dashboard Enhancement
-
-* Add a **Profitability by Product** visual.
-* Use **scatter plot**: Price vs Sold Units to identify outliers.
-* Include a **Time-based trend (Monthly/Weekly)** chart to view revenue/sales over time.
-* Filter by **Category/Subcategory** if available.
-
----
-
-Would you like me to export these insights and recommendations as a **PDF report or PPT**?
 
 
 
