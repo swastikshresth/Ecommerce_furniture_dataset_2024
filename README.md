@@ -37,7 +37,7 @@
      sql
      UPDATE e_commerce_furniture_dataset
      SET Original_Price = NULL
-     WHERE Original_Price = '' OR Original_Price IS NULL;
+     WHERE Original_Price = ' ' OR Original_Price IS NULL;
 
      UPDATE e_commerce_furniture_dataset
      SET Price = NULL
